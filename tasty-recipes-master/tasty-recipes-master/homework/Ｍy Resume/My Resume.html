@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Resume</title>
+    <link rel="stylesheet" href="div.css" />
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/magnific-popup.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/themify-icons.css">
+    <link rel="stylesheet" href="../../css/nice-select.css">
+    <link rel="stylesheet" href="../../css/flaticon.css">
+    <link rel="stylesheet" href="../../css/gijgo.css">
+    <link rel="stylesheet" href="../../css/animate.min.css">
+    <link rel="stylesheet" href="../../css/slick.css">
+    <link rel="stylesheet" href="../../css/slicknav.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script>
+      function changeColor(index) {
+        const p = document.getElementById('section');
+        console.log(p);
+        switch (index) {
+          case 1:
+            p.style.backgroundColor = 'yellow';
+            break;
+          case 2:
+            p.style.backgroundColor = 'azure';
+            break;
+          case 3:
+            p.style.backgroundColor = 'cornflowerblue';
+            break;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header id="header" class="header-scrolled">
+      <div class="header-area ">
+          <div id="sticky-header" class="main-header-area ">
+              <div class="container">
+                  <div class="row align-items-center">
+                      <div class="col-xl-3 col-lg-2">
+                          <div class="logo">
+                              <a href="../../index.html">
+                                  <img src="../../img/logo.png" alt="">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-7">
+                          <div class="main-menu   d-none d-lg-block">
+                              <nav>
+                                  <ul id="navigation">
+                                      <li><a href="../../index.html">home</a></li>
+                                      <li><a href="../../about.html">about</a></li>
+                                      <li><a href="../../Recipes.html">Recipes</a></li>
+                                      <li><a href="#">TKU <i class="ti-angle-down"></i></a>
+                                          <ul class="submenu">
+                                            <li><a href="../../homework/HW1/Pokemon.html">Pokemon</a></li>
+                                            <li><a href="../../homework/HW2/imageGallery.html">imageGallery</a></li>
+                                            <li><a href="../../homework/HW3/div.html">div</a></li>
+                                            <li><a href="../../homework/HW4/div+tku60.html">div+tku60</a></li>
+                                            <li><a href="../My Class/My class.html"></a>My Class</li>
+                                            <li><a href="../Ｍy Resume/My Resume.html">My Resume</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                          <ul class="submenu">
+                                              <li><a href="../../recipes_details.html">Recipes Details</a></li>
+                                              <li><a href="../../elements.html">elements</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a href="../../contact.html">Contact</a></li>
+                                  </ul>
+                              </nav>
+                          </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                          <div class="search_icon">
+                              <a href="#">
+                                  <i class="ti-search"></i>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col-12">
+                          <div class="mobile_menu d-block d-lg-none"></div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+    </header>
+    <div id="container">
+      <div id="heading">
+        <h1>My Resume</h1>
+        <ul>
+          <li onclick="changeColor(1)"><a>更換背景：黃</a></li>
+          <li onclick="changeColor(2)"><a>更換背景：白</a></li>
+          <li onclick="changeColor(3)"><a>更換背景：藍</a></li>
+        </ul>
+      </div>
+      <div id="main">
+        <div id="section">
+          <table border="2">
+            <tr>
+              <td colspan="6"><b >個人資料</b></td>
+            </tr>
+            <tr>
+              <td width="10%">姓名</td>
+              <td width="20%">蔡維展 </td>
+              <td width="10%">年齡</td>
+              <td width="20%">21歲</td>
+              <td width="10%" rowspan="4"><span class="vertical-mode">照片</span></td>
+              <td width="30%" rowspan="4"><img src="../../img/my picture.png" width="60%" alt=""></td>
+            </tr>
+            <tr>
+              <td>性別</td>
+              <td>男</td>
+              <td>身高</td>
+              <td>177公分</td>
+            </tr>
+            <tr>
+              <td >興趣</td>
+              <td colspan="3">看 <a href="https://www.mlb.com/" target="_blank">美國職棒大聯盟</a><br> 
+                <a href="https://www.formula1.com/" target="_blank">F1賽車</a>
+              </td>
+            </tr>
+            <tr>
+              <td >喜歡的球員</td>
+              <td ><a href="https://twbsball.dils.tku.edu.tw/wiki/index.php/Max_Scherzer" target="_blank">Max Scherzer</a></td>
+              <td>喜歡的樂團及歌手</td>
+              <td><a href="https://www.youtube.com/channel/UCi4EDAgjULwwNBHOg1aaCig" target="_blank">OneRepublic</a></td>
+            </tr>
+            <tr>
+              <td colspan="6"><b>教育背景</b></td>
+            </tr>
+            <tr>
+              <td>學歷</td>
+              <td colspan="5"><a href="http://www.chsh.chc.edu.tw/bin/home.php" target="_blank">彰化高中</a>  畢業<br>  
+                <a href="https://www.wree.tku.edu.tw/" target="_blank">淡江大學水資源及環境工程學系水資源工程組</a>  三年級</td>
+            </tr>
+            <td colspan="6"><b>打工經歷</b></td>
+            </tr>
+            <tr>
+              <td >工作單位</td>
+              <td colspan="2">松下電器</td>
+              <td >職位</td>
+              <td colspan="2">大賣場銷售員</td>
+            </tr>
+            <tr>
+              <td rowspan="3">工作內容及職位</td>
+              <td colspan="5" rowspan="3"> 推廣Panasonic的刮鬍刀</td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+          <tr>
+            <td colspan="6"><b>聯絡方式</b></td>
+          </tr>
+            <tr>
+               <td>e-mail</td>
+              <td colspan="5">Jack.25657@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="footer"><marquee onMouseOver="this.stop()" onMouseOut="this.start()">天佑臺灣  疫情退散</marquee></div>
+    </div>
+    <script src="../../js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
+    <script src="../../js/isotope.pkgd.min.js"></script>
+    <script src="../../js/ajax-form.js"></script>
+    <script src="../../js/waypoints.min.js"></script>
+    <script src="../../js/jquery.counterup.min.js"></script>
+    <script src="../../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../../js/scrollIt.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
+    <script src="../../js/nice-select.min.js"></script>
+    <script src="../../js/jquery.slicknav.min.js"></script>
+    <script src="../../js/jquery.magnific-popup.min.js"></script>
+    <script src="../../js/plugins.js"></script>
+    <script src="../../js/gijgo.min.js"></script>
+    <!--contact js-->
+    <script src="../../js/contact.js"></script>
+    <script src="../../js/jquery.ajaxchimp.min.js"></script>
+    <script src="../../js/jquery.form.js"></script>
+    <script src="../../js/jquery.validate.min.js"></script>
+    <script src="../../js/mail-script.js"></script>
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
