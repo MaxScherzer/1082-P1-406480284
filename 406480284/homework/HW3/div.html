@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Div_Demo</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/magnific-popup.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/themify-icons.css">
+    <link rel="stylesheet" href="../../css/nice-select.css">
+    <link rel="stylesheet" href="../../css/flaticon.css">
+    <link rel="stylesheet" href="../../css/gijgo.css">
+    <link rel="stylesheet" href="../../css/animate.min.css">
+    <link rel="stylesheet" href="../../css/slick.css">
+    <link rel="stylesheet" href="../../css/slicknav.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="div.css"/>
+    <script>
+      function changeColor(index) {
+        const p = document.getElementById('section');
+        console.log(p);
+        switch (index) {
+          case 1:
+            p.style.backgroundColor = 'yellow';
+            break;
+          case 2:
+            p.style.backgroundColor = 'azure';
+            break;
+          case 3:
+            p.style.backgroundColor = 'cornflowerblue';
+            break;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header id="header" class="header-scrolled">
+      <div class="header-area ">
+          <div id="sticky-header" class="main-header-area ">
+              <div class="container">
+                  <div class="row align-items-center">
+                      <div class="col-xl-3 col-lg-2">
+                          <div class="logo">
+                              <a href="../../index.html">
+                                  <img src="../../img/logo.png" alt="">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col-xl-6 col-lg-7">
+                          <div class="main-menu   d-none d-lg-block">
+                              <nav>
+                                  <ul id="navigation">
+                                      <li><a href="../../index.html">home</a></li>
+                                      <li><a href="#">TKU <i class="ti-angle-down"></i></a>
+                                          <ul class="submenu">
+                                            <li><a href="../HW1/Pokemon.html">Pokemon</a></li>
+                                            <li><a href="../HW2/imageGallery.html">imageGallery</a></li>
+                                            <li><a href="../HW3/div.html">div</a></li>
+                                            <li><a href="../HW4/div+tku60.html">div+tku60</a></li>
+                                            <li><a href="../MyClass/My class.html">My Class</a></li>
+                                            <li><a href="../MyResume/My Resume.html">My Resume</a></li>
+                                            <li><a href="../LearnMyself/LearnMyself.html">LearnMyself</a></li>
+                                            <li><a href="../Gituploadsuccess/Gituploadsuccess.html">Gituploadsuccess</a></li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </nav>
+                          </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                          <div class="search_icon">
+                              <a href="#">
+                                  <i class="ti-search"></i>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="col-12">
+                          <div class="mobile_menu d-block d-lg-none"></div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+    </header>
+    <div id="container">
+      <div id="heading">
+        <h1>Heading</h1>
+        <ul>
+          <li onclick="changeColor(1)"><a>Link1</a></li>
+          <li onclick="changeColor(2)"><a>Link2</a></li>
+          <li onclick="changeColor(3)"><a>Link3</a></li>
+        </ul>
+      </div>
+      <div id="main">
+        <aside>Menu</aside>
+        <div id="section">Section</div>
+      </div>
+      <div id="footer">Footer</div>
+    </div>
+    <script src="../../js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="../../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../../js/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/owl.carousel.min.js"></script>
+    <script src="../../js/isotope.pkgd.min.js"></script>
+    <script src="../../js/ajax-form.js"></script>
+    <script src="../../js/waypoints.min.js"></script>
+    <script src="../../js/jquery.counterup.min.js"></script>
+    <script src="../../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../../js/scrollIt.js"></script>
+    <script src="../../js/jquery.scrollUp.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
+    <script src="../../js/nice-select.min.js"></script>
+    <script src="../../js/jquery.slicknav.min.js"></script>
+    <script src="../../js/jquery.magnific-popup.min.js"></script>
+    <script src="../../js/plugins.js"></script>
+    <script src="../../js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="../../js/contact.js"></script>
+    <script src="../../js/jquery.ajaxchimp.min.js"></script>
+    <script src="../../js/jquery.form.js"></script>
+    <script src="../../js/jquery.validate.min.js"></script>
+    <script src="../../js/mail-script.js"></script>
+
+    <script src="../../js/main.js"></script>
+  </body>
+</html>
